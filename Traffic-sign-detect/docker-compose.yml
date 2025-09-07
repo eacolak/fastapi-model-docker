@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  fastapi:
+    build: .
+    ports:
+      - "7001:7001"
